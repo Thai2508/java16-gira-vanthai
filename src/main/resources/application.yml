@@ -1,0 +1,19 @@
+server :
+  port : 2508
+  
+spring:
+
+  security:
+    user:
+      name: Thai
+      password: 2508
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gira
+    username: postgres
+    password: 2508
+    
+  flyway:
+    enabled: false
+    driver-class-name: org.postgresql.Driver
+
